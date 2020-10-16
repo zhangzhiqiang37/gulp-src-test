@@ -8,6 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Install and run
-      run: |
-        npm install
-        npm run srcRelativeTest        
+      run: npm run srcRelativeTest        
