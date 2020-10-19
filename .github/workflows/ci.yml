@@ -9,5 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: run
-      # run: cd build && ../node_modules/.bin/gulp srcRelativeTest
-      run: ls && echo '\n' && cd .. && ls && echo '\n' && cd .. && ls && echo '\n' && cd .. && pwd && echo '\n' && ls && echo '\n'
+      run: cd build && ../node_modules/.bin/gulp srcRelativeTest
