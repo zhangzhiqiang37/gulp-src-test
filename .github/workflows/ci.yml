@@ -8,4 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: run
-      run: cd .. && pwd && ls
+      # run: cd build && ../node_modules/.bin/gulp srcRelativeTest
+      run: cd /home/runner/ && tree
