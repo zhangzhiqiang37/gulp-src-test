@@ -9,4 +9,4 @@ jobs:
     steps:
     - name: run
       # run: cd build && ../node_modules/.bin/gulp srcRelativeTest
-      run: cd /home/runner/ && tree
+      run: ls && cd .. && ls && cd .. && ls && cd .. && pwd && ls
